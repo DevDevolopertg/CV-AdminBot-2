@@ -20,15 +20,18 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 *Hello* {},*My Name is* *{}*! 
 
-```You You Can Add any kind of Filters to This Bot!```
+I am a Group Management Bot
+*maintained* *by*  *@Amal_PM*
 
-*Channel:© @DX_Botz*
+You can find the list of available commands with */help.*
 
-/help for more details..
+*Using* *standard* [Marie](http://telegram.dog/BanhammerMarie_bot) *is* *always* *gonna* *be* *easier.*
+[🔰 My Group](buttonurl:https://t.me/cenimavilla1999)[🔰 My Channel Lst](buttonurl:https://t.me/cinemavilla_1/8761)
+
 """
 
 HELP_STRINGS = """
-Hello! my name *{}*.
+Hello! My name *{}*.
 
 *Main Available Commands* are Below:
 

@@ -20,7 +20,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 *💞* *Hello* {},*My Name is* *{}*! 
 
-I am a Group Management Bot
+📌 I am a Group Management Bot
 *maintained* *by*  *@Amal_PM*
 
 You can find the list of available commands with */help.*

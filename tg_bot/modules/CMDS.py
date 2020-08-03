@@ -33,7 +33,7 @@ def post_telegraph(bot: Bot, update: Update, args: List[str]):
 
 
 __help__ = """
-<b>This bot is a clone of @BanHammerMarie_Bot maintained by @Amal_PM</b>
+*This* *bot* *is* *a* *clone* *of* *@BanHammerMarie_Bot* *maintained* *by* *@Amal_PM*
 
 എന്നെ നിർമ്മിച്ചിരിക്കുന്നത് python3 യിൽ python-telegram-bot ലൈബ്രറി ഉപയോഗിച്ചാണ്. ഞാൻ പൂർണ്ണമായിട്ടും ഓപ്പൺസോഴ്സ്ഡ് ആണ്.
 """

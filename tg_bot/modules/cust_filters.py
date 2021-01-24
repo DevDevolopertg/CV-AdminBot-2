@@ -95,6 +95,9 @@ def filters(bot: Bot, update: Update):
     is_voice = False
     is_audio = False
     is_video = False
+    media_caption = None
+    has_caption = False
+    content = None # :\
     buttons = []
 
     # determine what the contents of the filter are - text, image, sticker, etc

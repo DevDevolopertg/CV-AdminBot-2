@@ -18,15 +18,11 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-*💞* *Hello* {},*My Name is* *{}*! 
+*Hello* {},*My Name is* *{}*! 
 
-📌 I am a Group Management Bot
-*maintained* *by*  *@Amal_PM*
+📌 I am  exclusively made for *CINEMAVILLA*
 
-You can find the list of available commands with */help.*
-
-*Using* *standard* [Marie](http://telegram.dog/BanhammerMarie_bot) *is* *always* *gonna* *be* *easier.*
-[🔰 My Group](buttonurl:https://t.me/cenimavilla1999)[🔰 My Channel Lst](buttonurl:https://t.me/cinemavilla_1/8761)
+*Created by @Amal_PM*
 
 """
 

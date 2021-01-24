@@ -118,10 +118,11 @@ def filters(bot: Bot, update: Update):
         has_caption = True
         
     elif msg.reply_to_message and msg.reply_to_message.photo:
-        offset = len(msg.reply_to_message.caption)
-        ignore_underscore_case, buttons = button_markdown_parser(msg.reply_to_message.caption, entities=msg.reply_to_message.parse_entities(), offset=offset)
+        offset = len(msg.reply_to_message.caption or "")
+        media_caption, buttons = button_markdown_parser(msg.reply_to_message.caption, entities=msg.reply_to_message.parse_entities(), offset=offset)
         content = msg.reply_to_message.photo[-1].file_id  # last elem = best quality
         is_image = True
+        has_caption = True
 
     elif msg.reply_to_message and msg.reply_to_message.audio:
         content = msg.reply_to_message.audio.file_id

@@ -111,9 +111,12 @@ def filters(bot: Bot, update: Update):
         is_sticker = True
 
     elif msg.reply_to_message and msg.reply_to_message.document:
+        offset = len(msg.reply_to_message.caption or "")
+        media_caption, buttons = button_markdown_parser(msg.reply_to_message.caption, entities=msg.reply_to_message.parse_entities(), offset=offset)
         content = msg.reply_to_message.document.file_id
         is_document = True
-
+        has_caption = True
+        
     elif msg.reply_to_message and msg.reply_to_message.photo:
         offset = len(msg.reply_to_message.caption)
         ignore_underscore_case, buttons = button_markdown_parser(msg.reply_to_message.caption, entities=msg.reply_to_message.parse_entities(), offset=offset)
